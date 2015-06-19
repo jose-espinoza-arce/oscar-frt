@@ -1,0 +1,30 @@
+{
+  "name": "oscar-frt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-ruby-sass": "^1.0.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-ruby-sass": "^1.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose-espinoza-arce/oscar-frt.git"
+  },
+  "author": "Noe Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jose-espinoza-arce/oscar-frt/issues"
+  },
+  "homepage": "https://github.com/jose-espinoza-arce/oscar-frt#readme"
+}

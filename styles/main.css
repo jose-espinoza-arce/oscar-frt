@@ -1,0 +1,6 @@
+.th-breadcrumb {
+  background-color: #fff;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26); }
+  .th-breadcrumb > .active {
+    color: #bd9655; }
