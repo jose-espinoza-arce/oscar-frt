@@ -5,9 +5,12 @@
   .th-breadcrumb > .active, .th-logins > .active {
     color: #bd9655; }
 
-.th-logins h2 {
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 2px; }
-.th-logins .th-logins-col-right {
-  border-left: 1px solid #EBEBEB; }
+.th-logins {
+  height: auto;
+  overflow: hidden; }
+  .th-logins h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .th-logins .th-logins-col-right {
+    border-left: 1px solid #EBEBEB; }
