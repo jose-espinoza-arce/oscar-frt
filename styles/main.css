@@ -1,6 +1,13 @@
-.th-breadcrumb {
+.th-breadcrumb, .th-logins {
   background-color: #fff;
   border: 1px solid #EBEBEB;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26); }
-  .th-breadcrumb > .active {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25); }
+  .th-breadcrumb > .active, .th-logins > .active {
     color: #bd9655; }
+
+.th-logins h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+.th-logins .th-logins-col-right {
+  border-left: 1px solid #EBEBEB; }
