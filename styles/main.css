@@ -9,8 +9,11 @@
     font-size: 12px;
     line-height: 32px;
     letter-spacing: 2px; }
-    .btn.btn-primary:hover {
+    .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:visited {
       background-color: #d2aa60; }
+    .btn.btn-primary.btn-sm {
+      padding: 5px 10px;
+      font-size: 10px; }
   .btn.btn-primary-light {
     background-color: #d2aa60;
     border: 1px solid white; }
@@ -156,7 +159,7 @@ label {
   letter-spacing: 2px;
   border-radius: 0;
   background-color: #bd9655; }
-  .nav-pills > li.active > a:hover {
+  .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     background-color: #bd9655; }
 
 .th-right-content form {
@@ -165,3 +168,91 @@ label {
   padding: 1em;
   border: 1px solid #EBEBEB;
   margin-bottom: 2em; }
+
+.th-nav-checkout {
+  background: #FFFFFF;
+  margin-top: 2em; }
+  .th-nav-checkout ul {
+    display: table;
+    width: 100%;
+    text-align: center;
+    margin: 0; }
+    .th-nav-checkout ul > li {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      opacity: 0.75; }
+      .th-nav-checkout ul > li:hover {
+        opacity: 1; }
+        .th-nav-checkout ul > li:hover .th-step-link span {
+          color: #bd9655; }
+      .th-nav-checkout ul > li.active {
+        opacity: 1; }
+        .th-nav-checkout ul > li.active .th-step-nolink {
+          color: #bd9655; }
+    .th-nav-checkout ul .th-step-link span {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 11px;
+      color: #666666; }
+    .th-nav-checkout ul .th-step-link:hover {
+      text-decoration: none; }
+    .th-nav-checkout ul .th-step-nolink {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 11px;
+      color: #666666; }
+
+.sub-header {
+  padding: 1em 0;
+  margin: 1em 0;
+  border-bottom: 1px solid #EBEBEB; }
+  .sub-header h1 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin: 0; }
+
+.th-title {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.well {
+  background-color: #fff;
+  padding: 2em 1em;
+  border: 1px solid #EBEBEB;
+  border-radius: 0; }
+  .well .form-group {
+    margin-left: 0;
+    margin-right: 0; }
+
+.th-shipping-payment .sub-header {
+  padding: 0; }
+
+#place_order_form {
+  margin-bottom: 2em; }
+
+.th-basket-totals .total {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #bd9655; }
+
+.lead {
+  font-size: 11px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.th-tr-headlines th {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+#th-btn-logout {
+  padding: 5px 10px;
+  font-size: 10px;
+  margin-right: 1em; }
